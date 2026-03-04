@@ -11,7 +11,7 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres@localhost:5432/ecoapp"
+    "postgresql:"
 )
 
 
